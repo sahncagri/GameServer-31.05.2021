@@ -2,5 +2,7 @@
 {
    public enum ActionCode
     { 
+        None,
+        Login
     }
 }

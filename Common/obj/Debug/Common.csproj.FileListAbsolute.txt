@@ -1,0 +1,6 @@
+C:\Users\Banba5\source\repos\Server\GameServer-31.05.2021\Common\bin\Debug\Common.dll
+C:\Users\Banba5\source\repos\Server\GameServer-31.05.2021\Common\bin\Debug\Common.pdb
+C:\Users\Banba5\source\repos\Server\GameServer-31.05.2021\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\Banba5\source\repos\Server\GameServer-31.05.2021\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Banba5\source\repos\Server\GameServer-31.05.2021\Common\obj\Debug\Common.dll
+C:\Users\Banba5\source\repos\Server\GameServer-31.05.2021\Common\obj\Debug\Common.pdb

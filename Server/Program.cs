@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Server.Servers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,9 @@ namespace Server
     {
         static void Main(string[] args)
         {
+            NetworkServer server = new NetworkServer("127.0.0.1");
+            server.Start();
+            Console.ReadKey();
         }
     }
 }
