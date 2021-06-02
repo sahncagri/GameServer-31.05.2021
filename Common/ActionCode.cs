@@ -3,6 +3,8 @@
    public enum ActionCode
     { 
         None,
-        Login
+        Login,
+        CreateRoom,
+        JoinRoom
     }
 }

@@ -23,6 +23,7 @@ namespace Server.Servers
             serverSocket.Bind(endPoint);
             serverSocket.Listen(0);
             clientList = new List<Client>();
+            roomList = new List<Room>();
             controllerManager = new ControllerManager(this);
         }
         public void Start()
@@ -47,6 +48,20 @@ namespace Server.Servers
         public void SendResponse(Client client, ActionCode actionCode, string data)
         {
             client.SendData(actionCode,data);
+        }
+        public void AddRoom(Room room)
+        {
+            if (!roomList.Contains(room))
+            {
+                roomList.Add(room);
+            } 
+        }
+        public void QuitRoom(Room room)
+        {
+            if (roomList.Contains(room))
+            {
+                roomList.Remove(room);
+            }
         }
     }
 }
